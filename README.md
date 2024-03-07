@@ -28,3 +28,12 @@ Exemple : il y a `$_GET`, qui contient les données transmises par l'URL.
 - Une variable peut contenir : Des chaînes de caractères (string), des nombres entier (int), des nombres à virgules (float), des booléens (bool), des tableaux (array).
 
 ## 8) Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+- Oui, il y'a les tableaux numériques :
+Exemple : $couleurs = ["rouge", "vert", "beu"];
+    Dans cette exemple, chaque couleur est une valeur, et pour utiliser chaque élément du tableau, il faut appeler sa "clé" correspondante. A noter qu'un tableau numérique commence toujours par la clé    "[0]". Ainsi, pour appeler la couleur "vert" il faudra écrire : echo $couleur[1];
+
+Et il y'a les tableaux associatif : 
+Exemple : $age = ["Quentin" => "26", "Mickael" => "38", "Stephane" => "41"];
+    Dans cette exemple, "Quentin" devient la clé, et "26" la valeur qu'on lui à attribué. Ainsi : echo $age["Quentin"]; // Affiche "26"
+
+## 9) Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
