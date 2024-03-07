@@ -32,7 +32,7 @@ Exemple : il y a `$_GET`, qui contient les données transmises par l'URL.
 Exemple : $couleurs = ["rouge", "vert", "beu"];
     Dans cette exemple, chaque couleur est une valeur, et pour utiliser chaque élément du tableau, il faut appeler sa "clé" correspondante. A noter qu'un tableau numérique commence toujours par la clé    "[0]". Ainsi, pour appeler la couleur "vert" il faudra écrire : echo $couleur[1];
 
-Et il y'a les tableaux associatif : 
+- Et il y'a les tableaux associatif : 
 Exemple : $age = ["Quentin" => "26", "Mickael" => "38", "Stephane" => "41"];
     Dans cette exemple, "Quentin" devient la clé, et "26" la valeur qu'on lui à attribué. Ainsi : echo $age["Quentin"]; // Affiche "26"
 
