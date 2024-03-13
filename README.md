@@ -37,3 +37,31 @@ Exemple : $age = ["Quentin" => "26", "Mickael" => "38", "Stephane" => "41"];
     Dans cette exemple, "Quentin" devient la clé, et "26" la valeur qu'on lui à attribué. Ainsi : echo $age["Quentin"]; // Affiche "26"
 
 ## 9) Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
+- Structure séquentielles : 
+La structure par défaut, le code s'éxècute ligne après ligne, de haut en bas.
+$a = 10;
+$b = 5;
+$resultat = $a + $b,
+
+- Structure conditionnelles (if/else, elseif) : 
+Execute un bloc d'instruction uniquement si certaines conditions sont remplies ou non.
+if(10 > 5)
+{
+    $info =  "10 est bien plus grand que 5";
+}else
+{
+    $info = "10 n'est pas plus grand que 5";
+}
+
+- Srtucture itératives (boucles) :
+Répète un bloc d'instruction tant qu'une condition est remplie, il y'a les boucles :
+  - for, utiles quand on connaît à l'avance le nombre de fois que la boucle doit s'éxécuter.
+  - while, le nombre d'itérations n'est pas connu à l'avance.
+  - do ... while, pour que la boucle s'execute au moins une fois avant de vérifier la condition.
+
+  Exemple avec une boucle while : 
+$i = 1;
+while ($i <= 5) {
+    echo "Le numéro est: $i <br>";
+    $i++;
+}
