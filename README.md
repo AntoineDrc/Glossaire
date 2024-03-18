@@ -2,8 +2,8 @@
 
 ## 1) Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte :
 - Pour exécuter un script PHP, il faut un serveur web permettant à la machine d’interpréter le code PHP, exemple :
-  - Laragon
-  - XAMPP
+    - Laragon
+    - XAMPP
 
 ## 2) Qu’est-ce qu’un algorithme ?
 - Un algorithme est une suite d'étapes à suivre permettant d'obtenir un résultat à partir de données fournies en entrée.
@@ -55,9 +55,9 @@ if(10 > 5)
 
 - Srtucture itératives (boucles) :
 Répète un bloc d'instruction tant qu'une condition est remplie, il y'a les boucles :
-  - for, utiles quand on connaît à l'avance le nombre de fois que la boucle doit s'éxécuter.
-  - while, le nombre d'itérations n'est pas connu à l'avance.
-  - do ... while, pour que la boucle s'execute au moins une fois avant de vérifier la condition.
+    - for, utiles quand on connaît à l'avance le nombre de fois que la boucle doit s'éxécuter.
+    - while, le nombre d'itérations n'est pas connu à l'avance.
+    - do ... while, pour que la boucle s'execute au moins une fois avant de vérifier la condition.
 
   Exemple avec une boucle while : 
 $i = 1;
@@ -65,3 +65,39 @@ while ($i <= 5) {
     echo "Le numéro est: $i <br>";
     $i++;
 }
+
+## 10) Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+- En php on utilise la fonction "strlen" pour calculer la longueur d'une chaîne de caractères.
+"str" fait en faite référence au type "string" qui est donc le type de données "texte", et "len" pour "length" qui se traduit par longueur en français. 
+    Exemple : 
+        $maChaine = "Bonjour le monde !";
+        $longueur = strlen($maChaine);
+        echo $longueur; // Affichera la longueur de la chaîne, dans ce cas : 18
+            (A noter que les espaces sont également compté comme caractères)
+
+## 11) Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
+
+
+## 12) Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
+- Un cookie est un fichier texte qu'un site web laisse sur l'ordinateur ou le mobile d'un utilisateur. Cela sert au site à sauvegarder certaines informations à son propos pour pouvoir le reconnaître et afficher ses préférences.
+    Exemple : 
+        // Création d'un cookie nommé "utilisateur" avec la valeur "Jean"
+        setcookie("utilisateur", "Jean", time() + (86400 * 30), "/");
+
+        // Accès à la valeur du cookie
+        if(isset($_COOKIE["utilisateur"])) 
+        {
+            echo "Bonjour, " . $_COOKIE["utilisateur"];
+        } else {
+            echo "Bonjour, visiteur!";
+        }
+
+## 13) Quelle est la différence entre les instructions « require » et « include » en PHP
+
+
+## 14) Comment effectuer une redirection en PHP ?
+
+
+## 15) Définir la partie « front-end » et « back-end » d’une application
+- La partie front-end : 
+    C'est la partie qui est visible par l'utilisateur
