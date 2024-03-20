@@ -1,5 +1,8 @@
 # GLOSSAIRE-QUIZ
 
+
+# GENERAL
+
 ## 1) Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte :
 - Pour exécuter un script PHP, il faut un serveur web permettant à la machine d’interpréter le code PHP, exemple :
     - Laragon
@@ -96,8 +99,34 @@ while ($i <= 5) {
 
 
 ## 14) Comment effectuer une redirection en PHP ?
+- On utilise la fonction "header()" en indiquant une nouvelle URL vers laquelle naviguer.
 
 
 ## 15) Définir la partie « front-end » et « back-end » d’une application
-- La partie front-end : 
-    C'est la partie qui est visible par l'utilisateur
+- Front-end : 
+    C'est la partie "client". Tout ce qui est visible par l'utilisateur et ce avec quoi il lui est possible d'intéragir. Il à été définit par le W3C d'utiliser le HTML, CSS et JavaScript comme language de référance pour le développement de cette partie.
+
+- Back-end : 
+    La partie "Serveur". C'est la partie que ne voit pas l'utilisateur et avec laquelle il n'intéargit pas directement. Elle s'occupe de traiter et executer les opérations demandées, gérer les bases de données, etc... On utilise des languages qui y sont appropriés, tel que : PHP, Ruby, Java, C# ...
+
+## 16) Définir le contrôle de version ? Qu’est-ce que Git ?
+- Le contrôle de version est un système qui sauvegarde en ligne l'avancé des fichiers sur lesquels on travail. Il permet de garder une trace de chaque modification effectué et aux développeurs de travailler sur le même projet.
+
+-Git est l'un de ces systèmes de contrôle de version, il est gratuit et on open source.
+
+## 17) Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+- Système de Gestion de Contenu, est une application logicielle qui met a dispostions des sites web prêt à l'emploi.
+Cela permet d'introduire du texte ou des images sans avoir besoin de rédiger la moindre ligne de code, et de se concentrer sur le contenu plutôt que sur les aspects techniques de sa consctruction.
+On peut y choisir un modèle de design, ajouter des pages, personnaliser certains éléments, installer des fonctionnalités comme un formulaire de contact, galerie photo, ou une boutique en ligne.
+
+
+# FRONT-END
+
+## 1) Définir HTML
+- Hypertext Markup Language, est le language de balisage standard qui est utilisé pour créer et structurer tout le contenu d'une page web. A l'aide de balises, on peut y définir des élèments tels que des paragraphes, des titres, des liens, des images et des listes.
+
+## 2) Définir CSS
+- Cascading style sheets, est un language de feuille de style qui va permettre de procéder à la mise en page de notre contenu HTML. C'est la qu'on va y agencer les couleurs, la police, les effets spéciaux, ou encore la disposition de nos éléments HTML.
+Le CSS est primordiale pour rendre les pages web plus attrayantes pour les utilisateurs.
+
+## 3) Définir Javascript
