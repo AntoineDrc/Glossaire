@@ -79,6 +79,19 @@ while ($i <= 5) {
             (A noter que les espaces sont également compté comme caractères)
 
 ## 11) Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
+- $_SESSION est une super globale, elle permet de stocker des informations sur le serveur et d'y avoir accès sur toutes les fichiers de l'application.
+Pour démarrer une session, on utilise "session_start();", la fonction doit être appelée avant tout code HTML
+    Exemple : 
+        // Démarre la session
+        session_start();
+
+        // Stocke des données dans la session
+        $_SESSION["nom_utilisateur"] = "JeanDupont";
+        $_SESSION["email"] = "jean.dupont@example.com";
+
+        // Accéde aux données stockées dans une autre page
+        echo "Nom d'utilisateur : " . $_SESSION["nom_utilisateur"];
+        echo "Email : " . $_SESSION["email"];
 
 
 ## 12) Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
@@ -96,7 +109,8 @@ while ($i <= 5) {
         }
 
 ## 13) Quelle est la différence entre les instructions « require » et « include » en PHP
-
+Ce sont des instructions qui permettent d'inserer le contenu d'un fichier dans un autre fichier.
+La différence réside dans le fait que si PHP ne trouve pas le contenu ou ne peux pas le lire, avec include il continuera d'exéctuer le script, contrairement à require qui arrêtera l'exécution du script et genérera une erreur.
 
 ## 14) Comment effectuer une redirection en PHP ?
 - On utilise la fonction "header()" en indiquant une nouvelle URL vers laquelle naviguer.
