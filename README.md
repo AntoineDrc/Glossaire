@@ -5,8 +5,8 @@
 
 ## 1) Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte :
 - Pour exécuter un script PHP, il faut un serveur web permettant à la machine d’interpréter le code PHP, exemple :
-    - Laragon
-    - XAMPP
+    • Laragon
+    • XAMPP
 
 ## 2) Qu’est-ce qu’un algorithme ?
 - Un algorithme est une suite d'étapes à suivre permettant d'obtenir un résultat à partir de données fournies en entrée.
@@ -32,21 +32,21 @@ Exemple : il y a `$_GET`, qui contient les données transmises par l'URL.
 
 ## 8) Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
 - Oui, il y'a les tableaux numériques :
-Exemple : $couleurs = ["rouge", "vert", "beu"];
-    Dans cette exemple, chaque couleur est une valeur, et pour utiliser chaque élément du tableau, il faut appeler sa "clé" correspondante. A noter qu'un tableau numérique commence toujours par la clé    "[0]". Ainsi, pour appeler la couleur "vert" il faudra écrire : echo $couleur[1];
+    Exemple : $couleurs = ["rouge", "vert", "beu"];
+Dans cette exemple, chaque couleur est une valeur, et pour utiliser chaque élément du tableau, il faut appeler sa "clé" correspondante. A noter qu'un tableau numérique commence toujours par la clé    "[0]". Ainsi, pour appeler la couleur "vert" il faudra écrire : echo $couleur[1];
 
 - Et il y'a les tableaux associatif : 
 Exemple : $age = ["Quentin" => "26", "Mickael" => "38", "Stephane" => "41"];
     Dans cette exemple, "Quentin" devient la clé, et "26" la valeur qu'on lui à attribué. Ainsi : echo $age["Quentin"]; // Affiche "26"
 
 ## 9) Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
-- Structure séquentielles : 
+• Structure séquentielles : 
 La structure par défaut, le code s'éxècute ligne après ligne, de haut en bas.
 $a = 10;
 $b = 5;
 $resultat = $a + $b,
 
-- Structure conditionnelles (if/else, elseif) : 
+• Structure conditionnelles (if/else, elseif) : 
 Execute un bloc d'instruction uniquement si certaines conditions sont remplies ou non.
 if(10 > 5)
 {
@@ -56,7 +56,7 @@ if(10 > 5)
     $info = "10 n'est pas plus grand que 5";
 }
 
-- Srtucture itératives (boucles) :
+• Srtucture itératives (boucles) :
 Répète un bloc d'instruction tant qu'une condition est remplie, il y'a les boucles :
     - for, utiles quand on connaît à l'avance le nombre de fois que la boucle doit s'éxécuter.
     - while, le nombre d'itérations n'est pas connu à l'avance.
@@ -144,3 +144,63 @@ On peut y choisir un modèle de design, ajouter des pages, personnaliser certain
 Le CSS est primordiale pour rendre les pages web plus attrayantes pour les utilisateurs.
 
 ## 3) Définir Javascript
+- Contrairement à HTML et CSS, JavaScript est un language de programmation, utilisé en front-end. Il sert à dynamiser les pages web, en manipulant le "DOM" (Document Object Model) il permet de répondre aux actions de l'utilisateur, comme des clics de souris.
+
+## 4) Définir JSON. Dans quel contexte ce format est-il utilisé ?
+- JSON (JavaScript Object Notation) est un format léger d'échange de données. Il est uniquement utilisé pour stocker des données sour forme de clé/valeurs.
+Comme des variables dans un language de programmation en quelques sorte.
+
+## 5) Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
+- Oui, avec Node.js qui fournit l'environnement et les outils nécessaires pour exécuter du JavaScript côté serveur.
+
+## 6) Qu’est-ce qu’un sélecteur CSS ?
+- Un selecteur est un moyen d'identifier un ou plusieurs éléments HTML. Il en existe plusieurs, chacun ayant ses spécificité.
+On peut noter les plus courants:
+
+    • Selecteur de type : Cible tout les éléments ayant la même balise HTML, ex '<p>'
+
+    • Selecteur de classe : Cible tout les éléments qui ont une classe spécifique, pour l'appeler, on utilise le nom de la classe précédé d'un point.
+        ex : '.maClasse', pour tous les éléments ayant 'class="maClasse"'.
+
+    •Selecteur d'identifiant : Cible un élément unique qui a un identifiant spécifique. Il est précédé d'un dièse (#). 
+        ex : '#monId' cible l'élément ayant 'id="monId"'.
+
+## 7) Quelle balise HTML permet de créer un lien hypertexte ?
+- La balise '<a>', accompagné de l'attribut 'href', qui va indiquer le chemin du lien vers lequel on va être redirigé. Cela peut être une autre page, un fichier, un emplacement sur la même page, ou à une adresse email.
+A noter que l'attribut "title" permet d'ajouter une déscription au lien sous forme d'infobulle au survole avec le curseur.
+
+## 8) Qu’est-ce qu’une requête AJAX ? 
+
+## 9) Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
+- Je pense y avoir déja répondu précedement:
+
+    • Selecteur de classe : Cible tout les éléments qui ont une classe spécifique, pour l'appeler, on utilise le nom de la classe précédé d'un point.
+        ex : '.maClasse', pour tous les éléments ayant 'class="maClasse"'.
+
+## 10) Définir le responsive design
+- C'est le fait de pouvoir pouvoir afficher convenablement le contenu d'une page web sur toutes les tailles d'écrans, (moniteurs, tablettes, portables).
+Pour rendre une page responsive voici les outils dont j'ai connaissance : 
+
+    • Le header avec la balise "Meta viewport" : Elle indique au navigateur comment contrôler l'affichage (viewport) de la page pour s'adapter à la taille de   l'écran.
+
+    • Les unités relatives : (em, rem, %, vh, vw) pour agir sur les dimensions, ils ont l'avantages de s'adapter à plusieurs facteurs :
+        • Taille de l'écran
+        • Résolution  
+        • Paramètres de zoom de l'utilisateur
+        • Taille de base du texte
+
+    • Les media queries : Elles permettent d'appliquer des styles CSS conditionnels en fonction des caractéristiques de l'appareil, comme la largeur ou la hauteur.
+
+## 11) Qu’est-ce que le templating ? 
+
+## 12) Qu’est-ce qu’une fonction anonyme en Javascript ? 
+
+## 13) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ? 
+
+## 14) Qu’est-ce qu’un « media query » ? 
+
+## 15) Qu’est-ce qu’un pseudo élément en CSS ? 
+
+## 16) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent 
+
+## 17) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
