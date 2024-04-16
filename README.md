@@ -191,7 +191,8 @@ Pour rendre une page responsive voici les outils dont j'ai connaissance :
 
     • Les media queries : Elles permettent d'appliquer des styles CSS conditionnels en fonction des caractéristiques de l'appareil, comme la largeur ou la hauteur.
 
-## 11) Qu’est-ce que le templating ? 
+## 11) Qu’est-ce que le templating ?
+- Le templating consiste a dissocier la partie front-end de la logique back-end. Les templates contiennent la structure html tandis que les opérations back-end sont codés dans d'autres fichiers. Ils communiquent ensemble à l'aide de superglobales ou encore la fonction "include"
 
 ## 12) Qu’est-ce qu’une fonction anonyme en Javascript ? 
 
