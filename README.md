@@ -198,6 +198,10 @@ Pour rendre une page responsive voici les outils dont j'ai connaissance :
 - C'est une fonction qui n'a pas de nom. C'est utile quand on à besoin d'elle qu'une seule fois ou pour une opération spécifique. Comme exécuter une action quand l'utilisateur clique sur un bouton. Elles ont la particularité de pouvoir être créée et utilisé en même temps.
 
 ## 13) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ? 
+C'est la méthode ".push" en indiquant le nom de le variabel contenant le tableau suivi de la valeur qu'on veut lui ajouter : 
+    ex : let monTableau = [1, 2, 3];
+         monTableau.push(4);
+A noter que la méthode push ne marche que pour les tableau numériques.
 
 ## 14) Qu’est-ce qu’un « media query » ? 
 
