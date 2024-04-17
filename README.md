@@ -204,7 +204,7 @@ C'est la méthode ".push" en indiquant le nom de le variabel contenant le tablea
 A noter que la méthode push ne marche que pour les tableau numériques.
 
 ## 14) Qu’est-ce qu’un « media query » ? 
-
+- Un media querry est une technique utilisé en CSS pour rendre une page web responsive, en appliquant un style différent selon le type de périphérique, pour adapter l'affichage de la page selon la taille de l'écran ou la résolution, ou encore pour appliqué un style différent lors de l'impression d'une page.
 ## 15) Qu’est-ce qu’un pseudo élément en CSS ? 
 
 ## 16) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent 
