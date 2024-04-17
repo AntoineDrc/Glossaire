@@ -207,11 +207,14 @@ A noter que la méthode push ne marche que pour les tableau numériques.
 - Un media query est une technique utilisé en CSS pour rendre une page web responsive, en appliquant un style différent selon le type de périphérique, pour adapter l'affichage de la page selon la taille de l'écran ou la résolution, ou encore pour appliqué un style différent lors de l'impression d'une page.
 
 ## 15) Qu’est-ce qu’un pseudo élément en CSS ? 
-C'est un mot clé ajouté à un selecteur CSS qui permet d'ajouter du style sans avoir besoin de créer un nouveau noeud DOM. Cela permet d'avoir une structure html plus courte et "propre".
+- C'est un mot clé ajouté à un selecteur CSS qui permet d'ajouter du style sans avoir besoin de créer un nouveau noeud DOM. Cela permet d'avoir une structure html plus courte et "propre".
     ex : p::before {
         content: "Note: "; // "Note" seras ajouté avant chaque paragraphe.
     }
 ## 16) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent 
-Bootstrap est un framework de développement front-end, ce sont des feuilles de styles pré-établis qui permettent d'appliquer du CSS ou même du JS sans avoir besoin de les créer manuelement. Il s'ajoutent via les attributs "class" des balises HTML.
+- Bootstrap est un framework de développement front-end, ce sont des feuilles de styles pré-établis qui permettent d'appliquer du CSS ou même du JS sans avoir besoin de les créer manuelement. Il s'ajoutent via les attributs "class" des balises HTML.
+
+Il existent bien d'autres framework front-end, tels que : Foundation, Bulma, Semantic UI etc ...
+Chacun ayant ses forces et faiblesses, ils se distinguent en termes de taille et performances ou option de personnalisation.
 
 ## 17) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
