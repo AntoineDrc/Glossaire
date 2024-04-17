@@ -218,3 +218,11 @@ Il existent bien d'autres framework front-end, tels que : Foundation, Bulma, Sem
 Chacun ayant ses forces et faiblesses, ils se distinguent en termes de taille et performances ou option de personnalisation.
 
 ## 17) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
+- Quand un formulaire est crée deux méthodes peuvent lui être associés, "GET" et "POST".
+
+    GET : Les données sont envoyées via l'URL du navigateur, ce qui a pour conséquances de : 
+        - Securité : Les rend moins sécurisées pour les informations sensible telles que les mots de passe ou information de carte de crédit.
+        - Taille : La quantité de données est limitée en raison de restrictions sur la longueur max d'une URL.
+
+    POST : Les données sont envoyées dans le corps de la requête HTTP, ce qui signifie qu'elles ne sont pas directement visible par l'utilisateur, donc plus sécurisé et permettent également d'envoyer une quantité beaucoup plus grande de données.
+        
