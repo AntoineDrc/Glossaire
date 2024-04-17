@@ -238,9 +238,14 @@ Chacun ayant ses forces et faiblesses, ils se distinguent en termes de taille et
 - Un wireframe est utilisé lors de la conception d'une interface. C'est une ébauche, un croquis, en version simplifée du résultat final attendu. Il permet de définir la structure et les fonctionnalitées essentiels du projet.
 
 ## 3) Qu’est-ce qu’un prototype ?  
-- 
+- Un prototype est une version interactive de l'application. Il peut-être plus moins fidèle en terme de représentation, mais il à l'avantage de supporter les interactions et fonctionnalités demandées.
+
 ## 4) Qu’est-ce que la hiérarchie visuelle en UI Design ? 
+- La hiérarchie visuelle sert à distinguer les élèments important sur lesquelles on veut attirer l'attention de l'utilisateur. Pour se faire, on agit sur la disposition des éléments, les couleurs / contrastes, les polices, leur tailles etc ...
+
 ## 5) Qu’est-ce que l’accessibilité en UX Design ?  
+- Cela fait référence au fait de rendre l'application accessible à tous, notamment aux personnes en situation de déficiences ou de handicaps. Par exemple en permettant la navigation au clavier, la possibilité de modifier la taille du texte ainsi que les couleurs du site ou le contraste.
+
 ## 6) Qu’est-ce qu’une grille de mise en page ? 
 ## 7) Qu’est-ce que la notion d’affordance en UX Design ? 
 ## 8) Qu’est-ce qu’un « mobile first design » ?
