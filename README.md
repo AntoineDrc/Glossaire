@@ -195,6 +195,7 @@ Pour rendre une page responsive voici les outils dont j'ai connaissance :
 - Le templating consiste a dissocier la partie front-end de la logique back-end. Les templates contiennent la structure html tandis que les opérations back-end sont codés dans d'autres fichiers. Ils communiquent ensemble à l'aide de superglobales ou encore la fonction "include"
 
 ## 12) Qu’est-ce qu’une fonction anonyme en Javascript ? 
+- C'est une fonction qui n'a pas de nom. C'est utile quand on à besoin d'elle qu'une seule fois ou pour une opération spécifique. Comme exécuter une action quand l'utilisateur clique sur un bouton. Elles ont la particularité de pouvoir être créée et utilisé en même temps.
 
 ## 13) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ? 
 
