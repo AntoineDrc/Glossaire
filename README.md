@@ -225,4 +225,23 @@ Chacun ayant ses forces et faiblesses, ils se distinguent en termes de taille et
         - Taille : La quantité de données est limitée en raison de restrictions sur la longueur max d'une URL.
 
     POST : Les données sont envoyées dans le corps de la requête HTTP, ce qui signifie qu'elles ne sont pas directement visible par l'utilisateur, donc plus sécurisé et permettent également d'envoyer une quantité beaucoup plus grande de données.
+
+
+# UX / UI 
+
+## 1) Quelle est la différence entre UX Design et UI Design ? 
+- UX Designer (User Experience Design) se concentre sur les attentes, les besoins et le comportement des utilisateurs, il conçoit ensuite les fonctionnalités et interactions pour rendre l'experience utilisateur aussi intuitive et fluide que possible.
+
+- UI Designer (User Interface design) se concentre sur l'aspect visuel et l'esthétisme de l'application, il va agir sur la disposition général, les couleurs, polices, icônes etc ...
+
+## 2) Qu’est-ce qu’un wireframe ?  
+- Un wireframe est utilisé lors de la conception d'une interface. C'est une ébauche, un croquis, en version simplifée du résultat final attendu. Il permet de définir la structure et les fonctionnalitées essentiels du projet.
+
+## 3) Qu’est-ce qu’un prototype ?  
+- 
+## 4) Qu’est-ce que la hiérarchie visuelle en UI Design ? 
+## 5) Qu’est-ce que l’accessibilité en UX Design ?  
+## 6) Qu’est-ce qu’une grille de mise en page ? 
+## 7) Qu’est-ce que la notion d’affordance en UX Design ? 
+## 8) Qu’est-ce qu’un « mobile first design » ?
         
