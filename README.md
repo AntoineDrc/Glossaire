@@ -253,4 +253,4 @@ Chacun ayant ses forces et faiblesses, ils se distinguent en termes de taille et
 - L'affordance est le fait de donner des indices visuels à une fonctionnalité avec laquelle l'utilisateur peut agir, comme un lien qui est souligné et d'une autre couleur, ou un bouton cliquable auquel on ajoute un fond et une ombre portée pour une impression de relief.
 
 ## 8) Qu’est-ce qu’un « mobile first design » ?
-        
+- Cela veut dire que la conception du site ou de l'application est d'abord réalisé pour s'adapter aux tailles d'écran des mobiles. Mettant l'accent sur le fait de développer de manière "responsive".
