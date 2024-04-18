@@ -270,7 +270,11 @@ Chacun ayant ses forces et faiblesses, ils se distinguent en termes de taille et
 - Un objet est une entité qui représente une des instances que va contenir une classe. C'est lui qui contient les attributs et méthodes avec lesquelles on va travailler.
 
 ## 4) Définir la notion de propriété / attribut / méthode 
-- Pro
+- Propriété et attribut : Sont similaires, ce sont des variables que vont contenir les objets, "marque" et "modèle" pourraient être les attributs d'une classe "Voiture". C'est au moment ou l'on va instancier un nouvel objet (en suivant le modèle donné par le constructeur) qu'on va associer une valeur à chaque attribut.
+
+- Méthode : C'est l'écriture du comportement que l'on souhaite avec les données (attributs) que l'on manipule.
+
+Ils définissent les données et opérations que l'on peut effectuer avec chaque objet.
 
 ## 5) Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité 
 
