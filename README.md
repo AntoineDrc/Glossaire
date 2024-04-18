@@ -255,22 +255,43 @@ Chacun ayant ses forces et faiblesses, ils se distinguent en termes de taille et
 ## 8) Qu’est-ce qu’un « mobile first design » ?
 - Cela veut dire que la conception du site ou de l'application est d'abord réalisé pour s'adapter aux tailles d'écran des mobiles. Mettant l'accent sur le fait de développer de manière "responsive".
 
+
 # Programmation orientée objet (POO)
 
 ## 1) Donner une définition de la programmation orientée objet  
+- La POO est une méthode de programmation utilisant des objets et permet des les manipuler à l'aide de fonctions qu'on appelle méthode dans ce cas précis. L'avantage est que l'on peut "instancier" un nombre indéfini d'objet à une classe, ce qui permet d'éviter la répétitions de code et de le rendre plus modulaire en rajoutant des méthodes par la suite. La fonction d'héritage permet aussi de rendre le code réutilisable en pouvant étendre les propriétés et méthodes d'une classe existante à une nouvelle tout en donnant la possibilité d'en rajouter par la suite.
+
 ## 2) Qu’est-ce qu’une classe ? Comment la déclare-t-on ? 
+- Une classe sert de modèle auxquelle on renseigne les attributs et les méthodes avec lesquelles on va les manipuler pour chaque nouvel objet qu'on va y instancier.
+
+- On déclare une classe en lui attribuant tout d'abord un nom, on lui ajoutes ensuite les "attributs" dont on a besoin, c'est à ce moment que l'on va indiquer "l'encapsulation" (public ou privé), (une bonne pratique est de renseigner le type pour chaque attribut), ensuite on met en place le constructeur, qui va servir comme un "plan" à suivre pour chaque nouvel objet qu'on va lui instancier. Puis on va écrire les méthodes qui vont constituer les "comportements" à suivre de nos objets.
+
 ## 3) Qu’est-ce qu’un objet ? 
+
 ## 4) Définir la notion de propriété / attribut / méthode 
+
 ## 5) Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité 
+
 ## 6) Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ? 
+
 ## 7) Qu’est-ce que l’encapsulation ? 
+
 ## 8) Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple 
+
 ## 9) Définir l’opérateur de résolution de portée 
+
 ## 10) Définir une méthode / propriété statique 
+
 ## 11) Définir le polymorphisme en POO 
+
 ## 12) Définir une méthode / classe abstraite ? 
+
 ## 13) Définir le chaînage de méthodes 
+
 ## 14) Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques » 
+
 ## 15) Qu’est-ce qu’un « autoload » ? 
-## 16) Comment appelle-t-on en français les « getters » et les « setters » ? 
+
+## 16) Comment appelle-t-on en français les « getters » et les « setters » ?
+
 ## 17) Qu’est-ce que la sérialisation en PHP ?  
