@@ -250,5 +250,7 @@ Chacun ayant ses forces et faiblesses, ils se distinguent en termes de taille et
 - Une grille de mise en page est un outil qui sert de cadre organisé en colonnes et rangées et va servir à stucturer, placer et aligner les élèments de notre page.
 
 ## 7) Qu’est-ce que la notion d’affordance en UX Design ? 
+- L'affordance est le fait de donner des indices visuels à une fonctionnalité avec laquelle l'utilisateur peut agir, comme un lien qui est souligné et d'une autre couleur, ou un bouton cliquable auquel on ajoute un fond et une ombre portée pour une impression de relief.
+
 ## 8) Qu’est-ce qu’un « mobile first design » ?
         
