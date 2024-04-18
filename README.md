@@ -246,7 +246,9 @@ Chacun ayant ses forces et faiblesses, ils se distinguent en termes de taille et
 ## 5) Qu’est-ce que l’accessibilité en UX Design ?  
 - Cela fait référence au fait de rendre l'application accessible à tous, notamment aux personnes en situation de déficiences ou de handicaps. Par exemple en permettant la navigation au clavier, la possibilité de modifier la taille du texte ainsi que les couleurs du site ou le contraste.
 
-## 6) Qu’est-ce qu’une grille de mise en page ? 
+## 6) Qu’est-ce qu’une grille de mise en page ?
+- Une grille de mise en page est un outil qui sert de cadre organisé en colonnes et rangées et va servir à stucturer, placer et aligner les élèments de notre page.
+
 ## 7) Qu’est-ce que la notion d’affordance en UX Design ? 
 ## 8) Qu’est-ce qu’un « mobile first design » ?
         
