@@ -267,8 +267,10 @@ Chacun ayant ses forces et faiblesses, ils se distinguent en termes de taille et
 - On déclare une classe en lui attribuant tout d'abord un nom, on lui ajoutes ensuite les "attributs" dont on a besoin, c'est à ce moment que l'on va indiquer "l'encapsulation" (public ou privé), (une bonne pratique est de renseigner le type pour chaque attribut), ensuite on met en place le constructeur, qui va servir comme un "plan" à suivre pour chaque nouvel objet qu'on va lui instancier. Puis on va écrire les méthodes qui vont constituer les "comportements" à suivre de nos objets.
 
 ## 3) Qu’est-ce qu’un objet ? 
+- Un objet est une entité qui représente une des instances que va contenir une classe. C'est lui qui contient les attributs et méthodes avec lesquelles on va travailler.
 
 ## 4) Définir la notion de propriété / attribut / méthode 
+- Pro
 
 ## 5) Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité 
 
