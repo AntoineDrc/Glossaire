@@ -283,6 +283,7 @@ Ils définissent les données et opérations que l'on peut effectuer avec chaque
     • Private : Accessible uniquement à l'intérieur de la class ou elle est définie.
 
 ## 6) Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ? 
+- C'est grâce à la méthode "__construct" qu'on peut instancier un nouvel objet à une classe. Lorsqu'on instancie un nouvel objet, on associe en faite des valeurs aux attributs que l'on à précedemment déclaré dans le constructeur. (Une bonne pratique est de déclarer le type de chaque attribut dans le constructeur et lors des déclarations de celles-ci dans la classe)
 
 ## 7) Qu’est-ce que l’encapsulation ? 
 
