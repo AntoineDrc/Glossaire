@@ -277,6 +277,10 @@ Chacun ayant ses forces et faiblesses, ils se distinguent en termes de taille et
 Ils définissent les données et opérations que l'on peut effectuer avec chaque objet.
 
 ## 5) Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité 
+- La visibilité définie dans quelle partie la méthode ou la propriété est accessible dans le code, ce qui renforce la sécurité et l'encapsulation. Il y'a tois différent niveaux de visibilité : 
+    • Public : Accessible à n'importe quelle partie du code, tout autre class peut intéragir avec cette méthode ou propriété.
+    • Protected : Accessible seulement à l'intérieur de la class ou elle est définie ainsi que par les class qui en héritent.
+    • Private : Accessible uniquement à l'intérieur de la class ou elle est définie.
 
 ## 6) Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ? 
 
