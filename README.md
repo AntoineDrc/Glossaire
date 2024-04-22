@@ -333,6 +333,7 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 - Une méthode statique peut être appelée sans instance de cette classe, elle sont appelées sur le classe elle-même.
 
 ## 11) Définir le polymorphisme en POO 
+- C'est le fait d'attibuer un nouveau comportement à une méthode héritée de la classe parente. Améliorant ainsi la flexibilité du code.
 
 ## 12) Définir une méthode / classe abstraite ? 
 
