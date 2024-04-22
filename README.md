@@ -289,6 +289,35 @@ Ils définissent les données et opérations que l'on peut effectuer avec chaque
 - L'encapsulation est le fait de regrouper les méthodes et les attributs en une seule entitée (class). Elle permet de cacher (via la visibilité) les valeurs des attributs et le fonctionnement interne des méthodes pour les utilisateurs de cette classe.
 
 ## 8) Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple 
+- C'est le fait d'utiliser le concept d'héritage. Cela permet de reprendre les méthodes et attributs d'une classe existante, tout en ayant la possibilité d'en rajouter d'avantages. 
+    Ex : 
+// Classe de base
+class Vehicule {
+    protected $marque;
+
+    public function __construct($marque) {
+        $this->marque = $marque;
+    }
+
+    public function demarrer() {
+        echo "Le véhicule démarre<br>";
+    }
+}
+
+// Classe héritière
+class Voiture extends Vehicule {
+    private $nombreDePortes;
+
+    public function __construct($marque, $nombreDePortes) {
+        parent::__construct($marque); // Appel au constructeur de la classe parente
+        $this->nombreDePortes = $nombreDePortes;
+    }
+
+    public function demarrer() {
+        parent::demarrer(); // Appel de la méthode demarrer de la classe parente
+        echo "La voiture démarre avec " . $this->nombreDePortes . " portes<br>";
+    }
+}
 
 ## 9) Définir l’opérateur de résolution de portée 
 
