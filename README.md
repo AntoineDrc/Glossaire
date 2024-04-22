@@ -341,6 +341,7 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 - Une méthode abstraite est une méthode dans laquelle on ne définie aucun comportement, elle est obligatoirement associée à une classe abstraite. Elle est "vide" et les classes héritière de celle-ci doivent OBLIGATOIREMENT fournir une implémentation pour les méthodes abstraites, à moins qu'elles mêmes soient également abstraites.
 
 ## 13) Définir le chaînage de méthodes 
+- Le chaînage de méthode permet d'appeler plusieurs fonctions, les unes à la suite des autres dans une seule et même instructions, chaque fonctions modifie une donnée et renvoie (à l'aide de return) le résultat, permettant à la fonctions suivante de travailler dessus.
 
 ## 14) Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques » 
 
