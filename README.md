@@ -320,6 +320,12 @@ class Voiture extends Vehicule {
 }
 
 ## 9) Définir l’opérateur de résolution de portée 
+- L’opérateur de résolution de portée est "::". Il sert à : 
+    • Accèder a des membres statiques d'une classe (ses méthodes et propriétés statiques).
+    • Dans le cas d'une classé héritée, sert à accèder à la version originale de la classe parente.
+    • Accèder à des constantes de classes.
+
+L'opérateur permet simplement d'intéragir directement avec des éléments associés à la classe elle-même, plutôt qu'à une de ses instances.
 
 ## 10) Définir une méthode / propriété statique 
 
