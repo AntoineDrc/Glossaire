@@ -286,6 +286,7 @@ Ils définissent les données et opérations que l'on peut effectuer avec chaque
 - C'est grâce à la méthode "__construct" qu'on peut instancier un nouvel objet à une classe. Lorsqu'on instancie un nouvel objet, on associe en faite des valeurs aux attributs que l'on à précedemment déclaré dans le constructeur. (Une bonne pratique est de déclarer le type de chaque attribut dans le constructeur et lors des déclarations de celles-ci dans la classe)
 
 ## 7) Qu’est-ce que l’encapsulation ? 
+- L'encapsulation est le fait de regrouper les méthodes et les attributs en une seule entitée (class). Elle permet de cacher (via la visibilité) les valeurs des attributs et le fonctionnement interne des méthodes pour les utilisateurs de cette classe.
 
 ## 8) Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple 
 
