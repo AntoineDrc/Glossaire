@@ -336,6 +336,9 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 - C'est le fait d'attibuer un nouveau comportement à une méthode héritée de la classe parente. Améliorant ainsi la flexibilité du code.
 
 ## 12) Définir une méthode / classe abstraite ? 
+- Une classe abstraite est une classe qui ne peut pas être instancié dirtement. Elle peut contenir à la fois des méthodes abstraites et des méthodes avec une implémentation complète.
+
+- Une méthode abstraite est une méthode dans laquelle on ne définie aucun comportement, elle est obligatoirement associée à une classe abstraite. Elle est "vide" et les classes héritière de celle-ci doivent OBLIGATOIREMENT fournir une implémentation pour les méthodes abstraites, à moins qu'elles mêmes soient également abstraites.
 
 ## 13) Définir le chaînage de méthodes 
 
