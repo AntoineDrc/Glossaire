@@ -328,6 +328,9 @@ class Voiture extends Vehicule {
 L'opérateur permet simplement d'intéragir directement avec des éléments associés à la classe elle-même, plutôt qu'à une de ses instances.
 
 ## 10) Définir une méthode / propriété statique 
+- Une propriété statique est une variable partagée par toutes les instances d'une classe. Elle est utilisé pour conserver une donnée qui doit être partagé entre toutes les instances de cette classe.
+
+- Une méthode statique peut être appelée sans instance de cette classe, elle sont appelées sur le classe elle-même.
 
 ## 11) Définir le polymorphisme en POO 
 
