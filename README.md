@@ -362,3 +362,20 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 
 ## 17) Qu’est-ce que la sérialisation en PHP ?  
 - La sérialisation permet de convertir un objet sous forme de chaîne de caractères à l'aide de "serialize", pouvant ainsi être sauvegardé et envoyé. Ensuite en utilisant "unserialize" nous pouvons reconstituer l'objet et accèder a ses getters / setters.
+
+
+# Architecture  
+
+## 1) Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence 
+
+## 2) Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern 
+
+## 3) Qu’est-ce que l’architecture MVC ? 
+
+## 4) Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ? 
+
+## 5) Quels sont les avantages de l’architecture MVC ? 
+
+## 6) Existe-t-il des variantes à l’architecture MVC ? 
+
+## 7) Qu’est-ce qu’une API ? Définir l’architecture REST
