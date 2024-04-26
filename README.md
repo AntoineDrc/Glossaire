@@ -356,5 +356,8 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 
     Inclut tout les scripts dont le nom est identique à celui de la classe.
 ## 16) Comment appelle-t-on en français les « getters » et les « setters » ?
+- En français, les termes « getters » et « setters » sont souvent traduits par « accesseurs » et « mutateurs ».
+    • Accesseurs (Getters) : Ce sont des méthodes utilisées pour obtenir la valeur d'une propriété privée ou protégée d'un objet.
+    • Mutateurs (Setters) : Ce sont des méthodes utilisées pour modifier la valeur d'une propriété privée ou protégée d'un objet.
 
 ## 17) Qu’est-ce que la sérialisation en PHP ?  
