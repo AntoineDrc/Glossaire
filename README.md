@@ -344,9 +344,17 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 - Le chaînage de méthode permet d'appeler plusieurs fonctions, les unes à la suite des autres dans une seule et même instructions, chaque fonctions modifie une donnée et renvoie (à l'aide de return) le résultat, permettant à la fonctions suivante de travailler dessus.
 
 ## 14) Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques » 
+- La méthode "__toString()" permet de traîter un objet comme une chaïne de caractère, lui indiquant ce qu'il doit afficher. On peut ensuite directement appeler un objet avec un "echo".
 
+- 
 ## 15) Qu’est-ce qu’un « autoload » ? 
+- Autoload est un mécanisme qui permet de charger automatiquement les classes présentes dans les différent script, sans avoir besoin de les importer manuellement avec "require" ou "include"
+    Ex : spl_autoload_register(function ($class_name) 
+        {
+            include $class_name . '.php';
+        });
 
+    Inclut tout les scripts dont le nom est identique à celui de la classe.
 ## 16) Comment appelle-t-on en français les « getters » et les « setters » ?
 
 ## 17) Qu’est-ce que la sérialisation en PHP ?  
