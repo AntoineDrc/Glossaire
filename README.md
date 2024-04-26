@@ -361,3 +361,4 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
     • Mutateurs (Setters) : Ce sont des méthodes utilisées pour modifier la valeur d'une propriété privée ou protégée d'un objet.
 
 ## 17) Qu’est-ce que la sérialisation en PHP ?  
+- La sérialisation permet de convertir un objet sous forme de chaîne de caractères à l'aide de "serialize", pouvant ainsi être sauvegardé et envoyé. Ensuite en utilisant "unserialize" nous pouvons reconstituer l'objet et accèder a ses getters / setters.
