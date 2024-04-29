@@ -367,6 +367,19 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 # Architecture  
 
 ## 1) Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence 
+- C'est une mode de communication entre le client et le serveur, qui se fait sous forme de requête http. La requête se compose de la méthode, GET (récupère des données), POST (envoi de données), PUT (maj de données), DELETE (suppression de données); de l'URL (l'adresse de la page / ressource que le client veut obtenir); Version du protocole; Headers (Navigateur client, OS, cookies, langues user etc...) utiles pour renvoyer des données compatibles; Corps de la requête pour les méthodes POST ou PUT.
+
+    ex : 
+        POST /submit-form HTTP/1.1                              # Méthode POST, chemin de la ressource, version HTTP
+        Host: www.example.com                                   # Nom du domaine du serveur à qui la requête est adressée
+        Content-Type: application/x-www-form-urlencoded         # Type de contenu du corps de la requête, ici des données de formulaire encodées en URL
+        Content-Length: 27                                      # Longueur du corps de la requête en octets
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)   # Information sur le navigateur et le système d'exploitation du client
+        Cookie: sessionToken=abcde; userID=12345                # Cookies envoyés qui peuvent inclure des identifiants de session ou d'autres données pertinentes
+        Connection: keep-alive                                  # Indique que la connexion doit rester ouverte pour des requêtes futures
+
+        username=johndoe&password=123456                        # Corps de la requête contenant les données envoyées au serveur, ici les informations de connexion
+
 
 ## 2) Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern 
 
