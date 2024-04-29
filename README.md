@@ -382,6 +382,11 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 
 
 ## 2) Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern 
+- C'est un modèle de conception qui sert à organiser le code, afin de séparer les responsabilités. Affichage, logique, connexions ...
+    
+    • MVC (Modèle-vue-Contrôleur): Sépare les données (modèle), l'interface utilisateur (vue) et la logique de contrôle (contrôleur) en trois composants distincts.
+    • MVVM (Modèle-Vue-VueModèle) : Populaire dans le développement de logiciels avec des frameworks qui supportent le binding de données bidirectionnel
+    • FLUX : Utilise un flux unidirectionnel pour gérer les données. Il se compose de quatre parties principales : Dispatchers, Stores, Views, et Actions. Les actions captent les interactions de l'utilisateur, les dispatchers envoient ces actions aux stores qui gèrent l'état de l'application, et cet état est ensuite reflété dans les vues.
 
 ## 3) Qu’est-ce que l’architecture MVC ? 
 
