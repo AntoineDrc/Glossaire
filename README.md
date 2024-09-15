@@ -404,28 +404,28 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 ## 1) Qu’est-ce que la modélisation de données ? Définir la méthode Merise
 
 ## 2) Quelles sont les 3 étapes principales de la méthode Merise ?
-        a. Analyse, conception et réalisation
-        b. Planification, exécution et contrôle
-        c. Création, modification et suppression
+        - a. Analyse, conception et réalisation
+        - b. Planification, exécution et contrôle
+        - c. Création, modification et suppression
 
 ## 3) Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
 
 ## 4) Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
 
 ## 5) Donner la définition des mots suivants :
-        a. Entité
-        b. Relation
-        c. Cardinalité
-        d. Clé primaire / clé étrangère
+        - a. Entité
+        - b. Relation
+        - c. Cardinalité
+        - d. Clé primaire / clé étrangère
 
 ## 6) Que devient une relation de type « Many To Many » dans le modèle logique de données ?
 
 ## 7) Qu’est-ce qu’une base de données ?
 
 ## 8) Définir les notions suivantes :
-        a. SQL
-        b. MySQL
-        c. SGBD (donner 2 exemples de SGBD)
+        - a. SQL
+        - b. MySQL
+        - c. SGBD (donner 2 exemples de SGBD)
 
 ## 9) Dans une base de données, les données sont stockées dans des ???  Celles-ci sont constituées de lignes appelées ??? et de colonnes appelées ???
 
@@ -438,4 +438,194 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 ## 13) Qu’est-ce que l’intégrité référentielle dans une base de données ?
 
 ## 14) Quelles sont les fonctions d’agrégation en SQL ?
+
+## 15) Qu’est ce qu’un CRUD dans le contexte d’une base de données ?
+
+## 16) Quelles sont les clauses qui permettent de :
+       - a. Insérer un nouvel enregistrement dans une table
+       - b. Modifier un enregistrement dans une table
+       - c. Supprimer un enregistrement dans une table
+       - d. Supprimer la base de données
+       - e. Filtrer les résultats d’une requête SQL
+       - f. Trier les résultats d’une requête SELECT
+       - g. Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
+       - h. Concaténer 2 chaînes de caractères
+
+## 17) Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+
+
+# Symfony
+
+## 1) Qu’est-ce que Symfony ?
+
+## 2) Sur quel langage de programmation et design pattern repose Symfony ?
+
+## 3) Quelle est la dernière version en date de Symfony ?
+
+## 4) Qu’est-ce qu’un bundle ?
+
+## 5) Quel est le moteur de template utilisé par défaut dans Symfony ?
+
+## 6) Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
+
+## 7) Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?
+
+## 8) Que permet le bundle Maker au sein de Symfony ?
+
+## 9) Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
+
+## 10) Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
+
+
+# Sécurité
+
+## 1) Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
+
+## 2) Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
+
+## 3) Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
+
+## 4) Définir l’attaque par force brute et l’attaque par dictionnaire
+
+## 5) Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
+
+## 6) A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?
+
+## 7) Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
+
+## 8) Qu’est-ce qu’une politique de mots de passe forts ?
+
+## 9) Qu’est-ce que l’hameçonnage ?
+
+## 10) Définir la « validation des entrées »
+
+
+# RGPD
+
+## 1) Qu’est-ce que le RGPD ?
+
+## 2) Quel est son objectif principal ?
+
+## 3) Quelle est la date d’entrée en vigueur du RGPD ?
+
+## 4) Quelles sont les sanctions possibles en cas de non-respect du RGPD ?
+
+## 5) En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?
+
+## 6) Quel est le consentement valide selon le RPGD ?
+
+## 7) Qu’est-ce qu’une politique de confidentialité ?
+
+## 8) Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
+
+## 9) Quels sont les droits des utilisateurs selon le RGPD ?
+
+## 10) Qu’est-ce que le principe de minimisation des données selon le RGPD ?
+
+
+# SEO
+
+## 1) Qu’est-ce que le SEO ?
+
+## 2) Quel est l’objectif principal du SEO ?
+
+## 3) Existe-t-il plusieurs types de référencement ? Lesquels ?
+
+## 4) Qu’est-ce que la densité de mots-clés en SEO ?
+
+## 5) Qu’est-ce qu’une balise « alt » ?
+
+## 6) Qu’est-ce que la balise « meta description » ?
+
+## 7) Qu’est-ce que le « nofollow » en SEO ?
+
+## 8) Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?
+
+## 9) Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?
+
+## 10) Quelle est la recommandation pour les URL d'un site web bien référencé ?
+
+## 11) Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
+
+## 12) Qu'est-ce que l'optimisation des images pour le référencement ?
+
+## 13) Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
+
+
+# Gestion de projets / DevOps
+
+## 1) Qu’est-ce que la gestion de projet ?
+
+## 2) Qu’est-ce qu’une méthode Agile de gestion de projet ?
+
+## 3) Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
+
+## 4) A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
+
+## 5) Qu’est-ce que la planification itérative ?
+
+## 6) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
+
+## 7) Qu’est-ce qu’une réunion de revue de projet ?
+
+## 8) Qu’est-ce qu’un livrable dans un projet ?
+
+## 9) Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
+
+## 10) Qu’est-ce que le DevOps et quel est son objectif principal ?
+
+## 11) Qu’est-ce que l’intégration continue ?
+
+## 12) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
+
+## 13) Qu’est-ce qu’un test unitaire ?
+
+## 14) Quelle est l'unité de code testée lors d'un test unitaire ?
+
+## 15) Quelles sont les caractéristiques d'un bon test unitaire ?
+
+## 16) Qu'est-ce qu'une assertion dans un test unitaire ?
+
+
+# English
+
+## 1) What does JavaScript enable you to do on a website ?
+        - a. Add interactive behavior and dynamic content
+        - b. Define the layout and design of web pages
+        - c. Handle server-side operations
+
+## 2) Which programming language is primarily used for server-side web development ?
+        - a. PHP
+        - b. JavaScript
+        - c. HTML
+
+## 3) What is the purpose of a web browser ?
+        - a. To render and display web pages
+        - b. To execute serve-side code
+        - c. To manage databases
+
+## 4) What is the difference between GET and POST methods in HTTP ?
+        - a. GET retrieves data from a server, while POST submits data to a server
+        - b. GET submits data to a server, while POST retrieves data from a server
+        - c. GET and POST methods are interchangeable
+
+## 5) What is the purpose of version control systems (e.g., Git) in web development ?
+        - a. To track changes and manage collaborative development
+        - b. To optimize website loading speed
+        - c. To handle server-side scripting
+
+## 6) What is the purpose of a framework in web development ?
+        - a. To provide a structured environment for building web applications
+        - b. To handle network protocols and data transfer
+        - c. To create visual designs and layouts for websites
+
+## 7) What does NoSQL stand for ?
+        - a. Not Only SQL
+        - b. Non-Structured Query Language
+        - c. New Object-Oriented Language
+
+## 8) Which of the following is a characteristic of NoSQL databases ?
+        - a. Strict schema enforcement
+        - b. Support for complex transactions
+        - c. Scalability and flexible data models
 
