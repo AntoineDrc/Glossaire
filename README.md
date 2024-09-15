@@ -430,6 +430,13 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
         
 
 ## 6) Existe-t-il des variantes à l’architecture MVC ? 
+- MVC a introduit l'idée de séparer les responsabilités en trois couches principales et à en effet, inspiré d'autres variantes, notamment pour répondre aux besoins de développement qui ont évolué : 
+
+        • MVP (Model-View-Presenter): Cette architecture est une évolution de MVC, principalement utilisée dans les applications où la logique de présentation est complexe. Ici, le présentateur remplace le Contrôleur et est plus lié à la vue, il intéragit directement avec la Vue.
+
+        • MVVM (Model-View-ViewModel) : Populaire dans les environnement ou le data-binding (liaison de données) est utilisé. Le ViewModel sert d'intermédiaire entre la Vue et le Modèle, mais contrairement au Contrôleur, il contient une logique de présentation plus poussée.
+
+        • HMVC (Hierarchical MVC) : Une variante de MVC qui structure l'application en sous-MVC. Chaque section de l'application peut avoir son propre MVC, permettant une organisation plus modulaire pour les applications les plus complexex.
 
 ## 7) Qu’est-ce qu’une API ? Définir l’architecture REST
 
