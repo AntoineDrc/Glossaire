@@ -389,6 +389,21 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
     • FLUX : Utilise un flux unidirectionnel pour gérer les données. Il se compose de quatre parties principales : Dispatchers, Stores, Views, et Actions. Les actions captent les interactions de l'utilisateur, les dispatchers envoient ces actions aux stores qui gèrent l'état de l'application, et cet état est ensuite reflété dans les vues.
 
 ## 3) Qu’est-ce que l’architecture MVC ? 
+- Model-View-Controller, c'est une architecture qui pour but de séparer le code, afin de mieux l'organiser, et ce, en trois composants :
+
+        - Model : 
+            * Responsable de l'écriture / lecture dans la base de donées.
+            * Informe la Vue et le Controller des modifications de l'état des données.
+
+        - View :
+            * Responsable de l'affichage des données à l'utilisateur.
+            * Ne contient pas de logique métier.
+        
+        - Controller : 
+            * Agit comme intermédiaire entre le Model et la View
+            * Gère les requêtes HTTP et les intéractions utilisateur.
+            * Effectue des actions spécifiques (CRUD, authentification, etc ...).
+                
 
 ## 4) Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ? 
 
