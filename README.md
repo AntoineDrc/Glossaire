@@ -439,7 +439,9 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
         • HMVC (Hierarchical MVC) : Une variante de MVC qui structure l'application en sous-MVC. Chaque section de l'application peut avoir son propre MVC, permettant une organisation plus modulaire pour les applications les plus complexex.
 
 ## 7) Qu’est-ce qu’une API ? Définir l’architecture REST
+- Une API (Application Programming Interface) est un mécanisme qui permet à deux logiciels de communiquer entre eux, permettant à une application d'utiliser les fonctionnalités d'une autre sans connaître son fonctionnement interne.
 
+- REST (Representational State Transfer) est une architecture d'API utilisé pour la communication entre un client (application) et un serveur via le protocole HTTP.
 
 # Modélisation / Base de données
 
