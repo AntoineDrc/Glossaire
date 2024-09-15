@@ -1,6 +1,6 @@
 # GLOSSAIRE-QUIZ
 
-test
+
 # GENERAL
 
 ## 1) Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte :
@@ -33,7 +33,7 @@ Exemple : il y a `$_GET`, qui contient les données transmises par l'URL.
 ## 8) Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
 - Oui, il y'a les tableaux numériques :
     Exemple : $couleurs = ["rouge", "vert", "beu"];
-Dans cette exemple, chaque couleur est une valeur, et pour utiliser chaque élément du tableau, il faut appeler sa "clé" correspondante. A noter qu'un tableau numérique commence toujours par la clé    "[0]". Ainsi, pour appeler la couleur "vert" il faudra écrire : echo $couleur[1];
+Dans cette exemple, chaque couleur est une valeur, et pour utiliser chaque élément du tableau, il faut appeler sa "clé" correspondante. A noter qu'un tableau numérique commence toujours par la clé "[0]". Ainsi, pour appeler la couleur "vert" il faudra écrire : echo $couleur[1];
 
 - Et il y'a les tableaux associatif : 
 Exemple : $age = ["Quentin" => "26", "Mickael" => "38", "Stephane" => "41"];
@@ -198,7 +198,7 @@ Pour rendre une page responsive voici les outils dont j'ai connaissance :
 - C'est une fonction qui n'a pas de nom. C'est utile quand on à besoin d'elle qu'une seule fois ou pour une opération spécifique. Comme exécuter une action quand l'utilisateur clique sur un bouton. Elles ont la particularité de pouvoir être créée et utilisé en même temps.
 
 ## 13) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ? 
-C'est la méthode ".push" en indiquant le nom de le variabel contenant le tableau suivi de la valeur qu'on veut lui ajouter : 
+C'est la méthode ".push" en indiquant le nom de le variable contenant le tableau suivi de la valeur qu'on veut lui ajouter : 
     ex : let monTableau = [1, 2, 3];
          monTableau.push(4);
 A noter que la méthode push ne marche que pour les tableau numériques.
