@@ -420,6 +420,14 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
             * Effectue des actions spécifiques (CRUD, authentification, etc ...).
 
 ## 5) Quels sont les avantages de l’architecture MVC ? 
+- Le design pattern MVC est beaucoup utilisé dans les applications web en raison de ses nombreux avantages :
+
+        • Sépare les responsabilités : Rend le code plus organisé et structuré, et isole les fonctionnalités, permettant de ne pas affecter le model ou le contrôleur lors de changement dans la vue.
+
+        • Facilite la maintenance : L'ajout de nouvelles fonctionnalités devient plus simple grâce au fait qu'elles soient isolées, et les bugs plus facile à identifier.
+
+        • Développement parallèle : Les Dévs front-end et back-end peuvent travailler indépendamment les uns des autres, réduisant les dépendances et accélèrant le développement.
+        
 
 ## 6) Existe-t-il des variantes à l’architecture MVC ? 
 
