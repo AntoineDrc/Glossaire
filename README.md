@@ -406,6 +406,18 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
                 
 
 ## 4) Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ? 
+        - Model : 
+            * Responsable de l'écriture / lecture dans la base de donées.
+            * Informe la Vue et le Controller des modifications de l'état des données.
+
+        - View :
+            * Responsable de l'affichage des données à l'utilisateur.
+            * Ne contient pas de logique métier.
+        
+        - Controller : 
+            * Agit comme intermédiaire entre le Model et la View
+            * Gère les requêtes HTTP et les intéractions utilisateur.
+            * Effectue des actions spécifiques (CRUD, authentification, etc ...).
 
 ## 5) Quels sont les avantages de l’architecture MVC ? 
 
