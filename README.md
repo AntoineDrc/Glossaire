@@ -397,3 +397,45 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 ## 6) Existe-t-il des variantes à l’architecture MVC ? 
 
 ## 7) Qu’est-ce qu’une API ? Définir l’architecture REST
+
+
+# Modélisation / Base de données
+
+## 1) Qu’est-ce que la modélisation de données ? Définir la méthode Merise
+
+## 2) Quelles sont les 3 étapes principales de la méthode Merise ?
+        a. Analyse, conception et réalisation
+        b. Planification, exécution et contrôle
+        c. Création, modification et suppression
+
+## 3) Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
+
+## 4) Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
+
+## 5) Donner la définition des mots suivants :
+        a. Entité
+        b. Relation
+        c. Cardinalité
+        d. Clé primaire / clé étrangère
+
+## 6) Que devient une relation de type « Many To Many » dans le modèle logique de données ?
+
+## 7) Qu’est-ce qu’une base de données ?
+
+## 8) Définir les notions suivantes :
+        a. SQL
+        b. MySQL
+        c. SGBD (donner 2 exemples de SGBD)
+
+## 9) Dans une base de données, les données sont stockées dans des ???  Celles-ci sont constituées de lignes appelées ??? et de colonnes appelées ???
+
+## 10) Quelle est la différence entre une base de données relationnelle et non relationnelle ?
+
+## 11) Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
+
+## 12) A quoi sert une vue dans une base de données ?
+
+## 13) Qu’est-ce que l’intégrité référentielle dans une base de données ?
+
+## 14) Quelles sont les fonctions d’agrégation en SQL ?
+
