@@ -446,6 +446,9 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 # Modélisation / Base de données
 
 ## 1) Qu’est-ce que la modélisation de données ? Définir la méthode Merise
+- La modélisation de données est un processus qui permet de structurer et organiser les données pour faciliter leur compréhension et leur utilisation, sous forme de schéma notamment.
+
+- La méthode MERISE guide la création de schémas visuels et conceptuels pour modéliser une base de données, partant d'une représentation abstraite MCD (Modèle Conceptuel des Données) vers une conception logique MLD (Modèle Logique des Données).
 
 ## 2) Quelles sont les 3 étapes principales de la méthode Merise ?
         - a. Analyse, conception et réalisation
