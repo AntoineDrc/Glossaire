@@ -476,6 +476,7 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
             • Une clé étrangère est un attribut qui reprend la clé primaire d'une autre table et permet d'établir une relations entre elles.
 
 ## 6) Que devient une relation de type « Many To Many » dans le modèle logique de données ?
+- Une relation Many-to-Many ne peux pas être modéliser directement, on passe par une table intérmédiaire pour gérer la relation Many-to-Many, qui contient des clés étrangères qui relient les deux entités d'origine.
 
 ## 7) Qu’est-ce qu’une base de données ?
 
