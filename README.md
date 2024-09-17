@@ -495,6 +495,17 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 - Dans une base de données, les données sont stockées dans **TABLES**. Celles-ci sont constituées de lignes appelées **ENREGISTREMENTS** et de colonnes appelées **ATTRIBUTS**.
 
 ## 10) Quelle est la différence entre une base de données relationnelle et non relationnelle ?
+- Les différences résident en termes de langage de requêtes, structure des données, et scalabilité (Capacité d'un système à gérer une augmentation du volume du travail).
+
+    - Une base de données relationnelle utilise : 
+        • Le langage SQL (Structured Query Language) pour les opérations CRUD.
+        • Les données sont stockées dans des tables, organisées en lignes et colonnes.
+        • Scalabilité verticale, pour gérer plus de données, on boost les performances du serveur (plus de CPU, RAM etc ...)
+
+    - Une base de données non-relationnelle utilise : 
+        • N'utilise pas SQL. Chaque SGBD NoSQL à son propre langage pour manipuler les données.
+        • Les données peuvent être stockées sous différentes formes, dcuments (JSON), clé-valeur, colonnes ou graphes. 
+        • Scalabilité horizontale, on ajoute plusieurs serveurs gérer plus de données.
 
 ## 11) Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
 
