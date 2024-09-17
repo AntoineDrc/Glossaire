@@ -479,6 +479,7 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 - Une relation Many-to-Many ne peux pas être modéliser directement, on passe par une table intérmédiaire pour gérer la relation Many-to-Many, qui contient des clés étrangères qui relient les deux entités d'origine.
 
 ## 7) Qu’est-ce qu’une base de données ?
+- Une base de données est un ensemble structuré et organisé de données qui sont stockées, de manière à pouvoir être facilement consultées et modifiées par divers logiciels.
 
 ## 8) Définir les notions suivantes :
         - a. SQL
