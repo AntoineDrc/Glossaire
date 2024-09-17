@@ -459,6 +459,7 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 - Un MCD est une représentation graphique qui reprend les données nécessaires au fonctionnement, sans se soucier de l'aspect technique. L'objectif est de structuter les données et d'y établir les relations entre elles.
 
 ## 4) Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
+- Un MLD est une étape intermédiaire entre le MCD et la création de la base de données. Il offre un aspect plus technique et structuré que le MCD.
 
 ## 5) Donner la définition des mots suivants :
         - a. Entité
