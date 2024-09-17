@@ -391,7 +391,8 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
         Connection: keep-alive                                  
         # Indique que la connexion doit rester ouverte pour des requêtes futures
         
-        username=johndoe&password=123456                        # Corps de la requête contenant les données envoyées au serveur, ici les informations de connexion
+        username=johndoe&password=123456                        
+        # Corps de la requête contenant les données envoyées au serveur, ici les informations de connexion
 
 
 ## 2) Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern 
