@@ -463,9 +463,17 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 
 ## 5) Donner la définition des mots suivants :
         - a. Entité
+            • Une Entité représente un objet à part entière que l'on veut modéliser.
+
         - b. Relation
+            • Une relation est un lien qui existe entre deux ou plusieurts entités, qui permet de modéliser comment elles intéragissent entre elles, et d'y établir leur cardinalités.
+
         - c. Cardinalité
+            • La cardinalité définit le nombre minimum et maximum de fois ou deux entités peuvent intéragir entre elles. Elle s'éxprime de manière quantitative.
+
         - d. Clé primaire / clé étrangère
+            • Une clé primaire est un attribut qui permet d'identifier de manière unique les enregistrements d'une base de données.
+            • Une clé étrangère est un attribut qui reprend la clé primaire d'une autre table et permet d'établir une relations entre elles.
 
 ## 6) Que devient une relation de type « Many To Many » dans le modèle logique de données ?
 
