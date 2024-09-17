@@ -483,8 +483,13 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 
 ## 8) Définir les notions suivantes :
         - a. SQL
+            • (Structured Query Language) est un language standardisé utilisé pour intéragir avec les bases de données, afin d'effectuer des opérations CRUD (Create, Read, Update, Delete) aux moyens de requêtes.
+
         - b. MySQL
+            • MySQL est un SGBD (Système de Gestion de Base de Données) qui utilise le langage SQL. C'est l'un des SGBD les plus populaires.
+
         - c. SGBD (donner 2 exemples de SGBD)
+            • (Système de Gestion de Base de Données), il y'a donc MySQL, PostgreSQL, un autre SGBD open-source.
 
 ## 9) Dans une base de données, les données sont stockées dans des ???  Celles-ci sont constituées de lignes appelées ??? et de colonnes appelées ???
 
