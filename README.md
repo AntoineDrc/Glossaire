@@ -492,6 +492,7 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
             • (Système de Gestion de Base de Données), il y'a donc MySQL, PostgreSQL, un autre SGBD open-source.
 
 ## 9) Dans une base de données, les données sont stockées dans des ???  Celles-ci sont constituées de lignes appelées ??? et de colonnes appelées ???
+- Dans une base de données, les données sont stockées dans **TABLES**. Celles-ci sont constituées de lignes appelées **ENREGISTREMENTS** et de colonnes appelées **ATTRIBUTS**.
 
 ## 10) Quelle est la différence entre une base de données relationnelle et non relationnelle ?
 
