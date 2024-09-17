@@ -456,6 +456,7 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
         - c. Création, modification et suppression
 
 ## 3) Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
+- Un MCD est une représentation graphique qui reprend les données nécessaires au fonctionnement, sans se soucier de l'aspect technique. L'objectif est de structuter les données et d'y établir les relations entre elles.
 
 ## 4) Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
 
