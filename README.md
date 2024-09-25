@@ -525,6 +525,7 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 - C'est un mécanisme qui permet de combiner plusieurs tables entre elles à l'aide d'une colonne qu'elles partagent en commun. Généralement, ces colonnes sont des clés (primaire et étrangère). Les jointures sont utilisés pour rassembler des informations dispersées sur différentes tables dans une base de donnée.
 
 ## 12) A quoi sert une vue dans une base de données ?
+- Une vue dans une base de donnée est une table virtuelle qu'on crée et qui est définit par une requête SQL. Cela permet de la sauvegarder afin d'y accèder facilement et la réutiliser plus tard.
 
 ## 13) Qu’est-ce que l’intégrité référentielle dans une base de données ?
 
