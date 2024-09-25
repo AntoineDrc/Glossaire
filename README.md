@@ -543,7 +543,7 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
     • Read : Correspond à la lecture de données dans la BDD, via l'instruction SELECT.
     • Update : Permet de modifier des données existantes dans la BDD, via l'instruction UPDATE.
     • Delete : Supprimes les données dans une BDD, via l'instruction DELETE.
-    
+
 ## 16) Quelles sont les clauses qui permettent de :
        - a. Insérer un nouvel enregistrement dans une table
        - b. Modifier un enregistrement dans une table
@@ -555,6 +555,7 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
        - h. Concaténer 2 chaînes de caractères
 
 ## 17) Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+- Pour se connecter, on utilise la classe native de php : PDO (PHP Data Objetcs). On crée une nouvelle instance de cette classe, en renseignant l'hôte de la base de donnée, le nom de la BDD, nom d'utilisateur de la base, et sont password associé.
 
 
 # Symfony
