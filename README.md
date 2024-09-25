@@ -531,6 +531,11 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 - L'intégrité référentielle est un mécanisme qui permet d'éviter les erreurs. Elle s'assure que les clés étrangères pointent toujours vers des valeurs valides, c'est à dire que les clés primaires existantes dans ces autres tables.
 
 ## 14) Quelles sont les fonctions d’agrégation en SQL ?
+- Les fonctions d'agrégation sont des fonctions qui effectuent des calculs sur un ensemble de valeurs et renvoient une valeur unique.
+    Ex : 
+        • COUNT() : Compte le nombre de lignes ou de valeurs dans une collone.
+        • SUM() : Calcul la somme des valeurs d'une colonne numérique.
+        • AVG() : Calcul la moyenne des valeurs d'une colonne numérique.
 
 ## 15) Qu’est ce qu’un CRUD dans le contexte d’une base de données ?
 
