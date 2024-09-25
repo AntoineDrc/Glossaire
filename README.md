@@ -538,7 +538,12 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
         • AVG() : Calcul la moyenne des valeurs d'une colonne numérique.
 
 ## 15) Qu’est ce qu’un CRUD dans le contexte d’une base de données ?
-
+- C'est un acronyme qui désigne les quatres opérations de base. 
+    • Create : Ajout de nouvelles données dans la BDD, correspond à l'instruction SQL INSERT.
+    • Read : Correspond à la lecture de données dans la BDD, via l'instruction SELECT.
+    • Update : Permet de modifier des données existantes dans la BDD, via l'instruction UPDATE.
+    • Delete : Supprimes les données dans une BDD, via l'instruction DELETE.
+    
 ## 16) Quelles sont les clauses qui permettent de :
        - a. Insérer un nouvel enregistrement dans une table
        - b. Modifier un enregistrement dans une table
