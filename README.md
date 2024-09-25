@@ -522,6 +522,7 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
         • Scalabilité horizontale, on ajoute plusieurs serveurs gérer plus de données.
 
 ## 11) Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
+- C'est un mécanisme qui permet de combiner plusieurs tables entre elles à l'aide d'une colonne qu'elles partagent en commun. Généralement, ces colonnes sont des clés (primaire et étrangère). Les jointures sont utilisés pour rassembler des informations dispersées sur différentes tables dans une base de donnée.
 
 ## 12) A quoi sert une vue dans une base de données ?
 
