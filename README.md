@@ -579,8 +579,11 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 - (Object Relational Mapping) est un outil permettant de manipuler les données d'une BDD sous forme d'objet dans un language de programmation, évitant ainsi d'écrire des requêtes SQL. L'ORM utilisé dans Symfony est Doctrine, intégré via le DoctrineBundle.
 
 ## 7) Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?
+- L'injection de dépendances est le fait d'injecter directement dans le constructeur d'une classe, l'objet dont elle a besoin, sans avoir à l'instancier.
+- Dans Symfony, c'est géré par le Service Container qui injecte automatiquement les dépendances dans les classes qui en ont besoin.
 
 ## 8) Que permet le bundle Maker au sein de Symfony ?
+- Le bundle Maker permet de simplifier le développement en générant automatiquement du code via des commandes entrées dans la console Symfony.
 
 ## 9) Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
 
