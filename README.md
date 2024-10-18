@@ -561,8 +561,10 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 # Symfony
 
 ## 1) Qu’est-ce que Symfony ?
+- Symfony est un framework de php, qui facilite de développement d'applications web. Il porpose la console Symfony pour intéragir avec l'application, et utilise Doctrine pour gérer la BDD.
 
 ## 2) Sur quel langage de programmation et design pattern repose Symfony ?
+- Symfony suit une architecture MVC, utilise PHP pour la logique métier, et TWIG comme moteur de templates pour gérer les vues.
 
 ## 3) Quelle est la dernière version en date de Symfony ?
 
