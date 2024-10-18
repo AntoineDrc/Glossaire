@@ -567,8 +567,10 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 - Symfony suit une architecture MVC, utilise PHP pour la logique métier, et TWIG comme moteur de templates pour gérer les vues.
 
 ## 3) Quelle est la dernière version en date de Symfony ?
+- La dernière version stable de Symfony est la version 7.1.5, publiée en Septembre 2024.
 
 ## 4) Qu’est-ce qu’un bundle ?
+- Un bundle est un pack additionel apportant des fonctionnalitées supplémentaires, qui peut être installé pour étendre les capacité de l'application.
 
 ## 5) Quel est le moteur de template utilisé par défaut dans Symfony ?
 
