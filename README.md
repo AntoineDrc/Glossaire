@@ -586,6 +586,7 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 - Le bundle Maker permet de simplifier le développement en générant automatiquement du code via des commandes entrées dans la console Symfony.
 
 ## 9) Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
+- DQL (Doctrine Query Language), contrairement à SQL, il intéragit direcement avec les objets en PHP plutôt qu'avec les tables de la BDD.
 
 ## 10) Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
 
