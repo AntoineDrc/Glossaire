@@ -573,8 +573,10 @@ L'opérateur permet simplement d'intéragir directement avec des éléments asso
 - Un bundle est un pack additionel apportant des fonctionnalitées supplémentaires, qui peut être installé pour étendre les capacité de l'application.
 
 ## 5) Quel est le moteur de template utilisé par défaut dans Symfony ?
+- Le moteur de template utilisé par défaut est Twig, il permet de gérer l'affichage des templates (la Vue) de manière simple et lisible. Il offre une syntaxe claire pour insérer des variables, boucles et conditions. Il apporte aussi des fonctionnalitées de **sécurité** comme **l'échappement automatique** pour éviter les failles **XSS**
 
 ## 6) Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
+- (Object Relational Mapping) est un outil permettant de manipuler les données d'une BDD sous forme d'objet dans un language de programmation, évitant ainsi d'écrire des requêtes SQL. L'ORM utilisé dans Symfony est Doctrine, intégré via le DoctrineBundle.
 
 ## 7) Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?
 
